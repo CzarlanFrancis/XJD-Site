@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export const metadata = {
   title: "XJD Financial",
   description: "Insurance. Discipline. Data.",
