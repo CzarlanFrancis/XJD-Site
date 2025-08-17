@@ -1,5 +1,3 @@
-import "./globals.css";
-
 export const metadata = {
   title: "XJD Financial",
   description: "Insurance. Discipline. Data.",
@@ -8,6 +6,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head />
       <body className="antialiased">{children}</body>
     </html>
   );
